@@ -1,0 +1,27 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-4BXA$ git log --oneline
+3558c1a (HEAD -> main) Añade archivo de notas inicial sobre Git
+227df1d (origin/main, origin/HEAD) add deadline
+9b8acc7 Initial commit
+
+
+Una breve explicación de por qué es importante escribir mensajes de commit claros.
+
+Es fundamental para la mantenibilidad del proyecto, ya que facilita la comprensión del historial, agiliza la depuración de errores (debugging) y mejora la colaboración en equipo
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-4BXA$ git log --oneline
+00858e7 (HEAD -> main) Completa conceptos básicos de flujo en Git
+3558c1a Añade archivo de notas inicial sobre Git
+227df1d (origin/main, origin/HEAD) add deadline
+9b8acc7 Initial commit
+
+¿Cuántos commits tienes ahora en el repositorio?
+
+Tiene 4 commits, cada línea representa un commit.
+
+
+¿Qué diferencia hay entre el primer y el segundo commit?
+
+Primer commit (00858e7): Este commit agrega o modifica contenido relacionado con conceptos básicos de flujo en Git.
+
+Segundo commit (3558c1a): Este commit crea un nuevo archivo de notas sobre Git.

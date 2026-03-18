@@ -1,0 +1,31 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-4BXA$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	notas-git.md
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+Untracked = Significa que un archivo nuevo existe en tu carpeta de proyecto pero no está siendo incluido en el control de versiones.
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-4BXA$ git add notas-git.md
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-4BXA$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevos archivos: notas-git.md
+	
+	
+¿Qué diferencia hay entre estar “untracked” y estar en “staging”?
+
+La principal diferencia entre estar "untracked" (sin seguimiento) y en "staging" (área de preparación) radica en si Git conoce el archivo y si este ha sido marcado para la próxima confirmación (commit).
+
+
+¿Qué comando has utilizado para pasar el archivo a la zona de staging?
+
+git add <nombre-del-archivo>
